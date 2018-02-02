@@ -1,0 +1,67 @@
+﻿.levelMap {
+    font-size: 1px;
+    background-color: aqua;
+    height: 576px;
+    width: 684px;
+    margin: 0px;
+}
+#map{
+    position: relative;
+    left: 460px;
+}
+
+.wall {
+    background-image: url('Foto Sokoban/Wall.gif');
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin: 0px;
+}
+
+.empty {
+    background-image: url('Foto Sokoban/Empty.gif');
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin: 0px;
+}
+
+.goal {
+    background-image: url('Foto Sokoban/Goal.gif');
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin: 0px;
+}
+
+.player {
+    background-image: url('Foto Sokoban/Player.gif');
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin: 0px;
+}
+
+.player .empty {
+    background-image: url('Foto Sokoban/Player.gif');
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin: 0px;
+}
+
+.box {
+    background-image: url('Foto Sokoban/Box.gif');
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin: 0px;
+}
+
+.box .empty{
+    background-image: url('Foto Sokoban/Box.gif');
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin: 0px;
+}
